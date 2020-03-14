@@ -1,23 +1,24 @@
 @extends('layouts.app')
-
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
 
+<div class="container text-center">
+    <h2>Products</h2>
+        <div class="row">
+        @foreach ($allProducts as $product)
+        <div class="col-4">
+            <div class="card ">
+                <img class="card-img-top" src="{{ asset('default-img.png') }}" alt="Card image cap">
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+                    <h4 class="card-title">{{$product->name}}</h4>
+                    <p class="card-text">{{$product->description}}</p>
+                    <h3>$ {{ $product->price }}</h3>
+                </div>
+                <div class="card-body">
+                    <a href="/" class="card-link">Add to cart</a>
                 </div>
             </div>
         </div>
+        @endforeach
     </div>
 </div>
 @endsection
