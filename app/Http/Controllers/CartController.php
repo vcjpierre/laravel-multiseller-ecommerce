@@ -9,7 +9,7 @@ class CartController extends Controller
 {
     public function add(Product $product)
     {
-        // add to cart
+        //Add the product to cart
         \Cart::session(auth()->id())->add(array(
             'id' => $product->id,
             'name' => $product->name,
@@ -20,7 +20,6 @@ class CartController extends Controller
         ));
 
         return redirect()->route('cart.index');
-        
     }
 
     public function index()
