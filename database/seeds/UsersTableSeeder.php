@@ -21,11 +21,11 @@ class UsersTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'role_id' => 1,
-                'name' => 'Jean Pierre',
-                'email' => 'jpvc@email.com',
-                'avatar' => 'users\\March2020\\TPegAdXpxWhX8G4XewmI.png',
+                'name' => 'Admin',
+                'email' => 'admin@admin.com',
+                'avatar' => 'users/default.png',
                 'email_verified_at' => NULL,
-                'password' => '$2y$10$mbvF.Xc3S93uj2eS6tQZNO/.bf6fQnXTsNxHwCMfhpp1yYT3u8sk.',
+                'password' => '$2y$10$fwxQ.JN/ovSWnMuVnSrTBuxAqKWiekRIln9g004Gy5yzmmYkUyPXm', // 'admin
                 'remember_token' => 'w4rmlGnuQpnYks3bsEixMNUSGLKNoz9gSWM1eR48WhlGxNmTDhSUHibG8Pp7',
                 'settings' => '{"locale":"es"}',
                 'created_at' => '2020-03-15 20:58:47',
@@ -35,11 +35,11 @@ class UsersTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'role_id' => 1,
-                'name' => 'admin',
-                'email' => 'admin@admin.com',
+                'name' => 'Customer 1',
+                'email' => 'customer@customer.com',
                 'avatar' => 'users/default.png',
                 'email_verified_at' => NULL,
-                'password' => '$2y$10$fwxQ.JN/ovSWnMuVnSrTBuxAqKWiekRIln9g004Gy5yzmmYkUyPXm',
+                'password' => '$2y$10$NdZQm5bvo2D9AWHpexSPBu1xXqtC/D//SxoswSgdfAk5vb9pSgVju', // 'customer'
                 'remember_token' => NULL,
                 'settings' => NULL,
                 'created_at' => '2020-03-17 20:22:36',
