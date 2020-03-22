@@ -36,7 +36,7 @@ Route::get('paypal/checkout-success/{order}', 'PayPalController@getExpressChecko
 Route::get('paypal/checkout-cancel', 'PayPalController@cancelPage')->name('paypal.cancel');
 
 //Shop
-Route::resource('shops','ShopController');
+Route::resource('shops','ShopController')->middleware('auth');;
 
 //Voyager
 Route::group(['prefix' => 'admin'], function () {
