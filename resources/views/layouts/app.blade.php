@@ -83,11 +83,17 @@
                                         @csrf
                                     </form>
 
-                                    <a class="dropdown-item" href="{{ url('admin') }}">
-                                         @if (Auth::user()->hasRole('admin'))
-                                            Admin panel
-                                        @endif
+                                    @if (Auth::user()->hasRole('admin'))
+                                    <a class="dropdown-item" href="{{ url('admin') }}">                                        
+                                        Admin panel                                       
                                     </a>
+                                     @endif
+
+                                    @if (Auth::user()->hasRole('seller'))
+                                    <a class="dropdown-item" href="{{ url('admin') }}">                                    
+                                        Seller panel                                        
+                                    </a>
+                                    @endif
                                 </div>                            
                             </li>
                         @endguest
