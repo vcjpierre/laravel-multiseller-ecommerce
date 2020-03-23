@@ -82,7 +82,13 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
-                                </div>
+
+                                    <a class="dropdown-item" href="{{ url('admin') }}">
+                                         @if (Auth::user()->hasRole('admin'))
+                                            Admin panel
+                                        @endif
+                                    </a>
+                                </div>                            
                             </li>
                         @endguest
                     </ul>
