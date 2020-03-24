@@ -143,6 +143,42 @@ class DataTypesTableSeeder extends Seeder
                 'created_at' => '2020-03-17 21:00:55',
                 'updated_at' => '2020-03-18 17:44:50',
             ),
+            7 => 
+            array (
+                'id' => 8,
+                'name' => 'shops',
+                'slug' => 'shops',
+                'display_name_singular' => 'Shop',
+                'display_name_plural' => 'Shops',
+                'icon' => 'voyager-shop',
+                'model_name' => 'App\\Shop',
+                'policy_name' => '\\App\\Policies\\ShopPolicy',
+                'controller' => 'App\\Http\\Controllers\\Admin\\ShopController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2020-03-23 06:28:19',
+                'updated_at' => '2020-03-23 23:31:33',
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'name' => 'products',
+                'slug' => 'products',
+                'display_name_singular' => 'Product',
+                'display_name_plural' => 'Products',
+                'icon' => 'voyager-bag',
+                'model_name' => 'App\\Product',
+                'policy_name' => 'App\\Policies\\ProductPolicy',
+                'controller' => 'App\\Http\\Controllers\\Admin\\ProductController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2020-03-23 06:28:50',
+                'updated_at' => '2020-03-24 00:11:41',
+            ),
         ));
         
         

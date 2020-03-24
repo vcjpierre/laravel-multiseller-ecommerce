@@ -53,6 +53,18 @@ class ShopObserver
     }
 
     /**
+     * Handle the shop "deleted" event.
+     *
+     * @param  \App\Shop  $shop
+     * @return void
+     */
+    public function deleting(Shop $shop)
+    {
+        // dd(auth()->id());
+        // dd($shop);
+    }
+
+    /**
      * Handle the shop "restored" event.
      *
      * @param  \App\Shop  $shop
