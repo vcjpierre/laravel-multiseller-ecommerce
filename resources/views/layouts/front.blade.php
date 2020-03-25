@@ -38,11 +38,64 @@
                 </div>
                 <div class="electronics-login-register">
                     <ul>
-                        <li><a href="#"><i class="pe-7s-users"></i>My Account</a></li>
-                        <li><a data-toggle="modal" data-target="#exampleCompare" href="#"><i class="pe-7s-repeat"></i>Compare</a></li>
-                        <li><a href="wishlist.html"><i class="pe-7s-like"></i>Wishlist</a></li>
-                        <li><a href="#"><i class="pe-7s-flag"></i>US</a></li>
-                        <li><a class="border-none" href="#"><span>$</span>USD</a></li>
+                        {{-- <li><a href="#"><i class="pe-7s-users"></i>My Account</a></li> --}}
+
+                        <!-- Authentication Links -->
+                        @guest
+                            <li>
+                                <a href="{{ route('login') }}">
+                                    {{ __('Login') }}
+                                </a>
+                            </li>
+                            @if (Route::has('register'))
+                                <li>
+                                    <a href="{{ route('register') }}">
+                                        {{ __('Register') }}
+                                    </a>
+                                </li>
+                            @endif
+                            @else
+                            <li>
+                                <a>
+                                    Welcome, {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+                            </li>                                                        
+
+                            @if (Auth::user()->hasRole('admin'))
+                            <li>
+                                <a href="{{ url('admin') }}">                                        
+                                    Admin panel                                       
+                                </a>
+                            </li>
+                            @endif
+
+                            @if (Auth::user()->hasRole('seller'))
+                            <li> 
+                                <a href="{{ url('admin') }}">                                    
+                                    Seller panel                                        
+                                </a>
+                            </li>
+                            @endif
+
+                            <li>
+                                <a href="">
+                                    <i class="pe-7s-like"></i>
+                                    Wishlist
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            </li>                            
+                        @endguest                        
                     </ul>
                 </div>
             </div>
