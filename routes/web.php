@@ -20,6 +20,9 @@ Auth::routes();
 //Home
 Route::get('/home', 'HomeController@index')->name('home');
 
+//Products
+Route::resource('products', 'ProductController');
+
 //Shopping cart
 Route::get('/add-to-cart/{product}', 'CartController@add')->name('cart.add')->middleware('auth');
 Route::get('/cart', 'CartController@index')->name('cart.index')->middleware('auth');
