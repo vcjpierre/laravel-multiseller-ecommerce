@@ -19,6 +19,7 @@ Auth::routes();
 
 //Home
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/contact', 'HomeController@contact')->name('contact');
 
 //Products
 Route::get('/products/search', 'ProductController@search')->name('products.search');
@@ -37,6 +38,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/cart/destroy/{itemId}', 'CartController@destroy')->name('cart.destroy');
     Route::get('/cart/update/{itemId}', 'CartController@update')->name('cart.update');
     Route::get('/cart/checkout', 'CartController@checkout')->name('cart.checkout');
+    Route::get('/cart/apply-coupon', 'CartController@applyCoupon')->name('cart.coupon');
 
     //PayPal
     Route::get('paypal/checkout/{order}', 'PayPalController@getExpressCheckout')->name('paypal.checkout');
