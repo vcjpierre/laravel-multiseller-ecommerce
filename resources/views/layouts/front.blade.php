@@ -104,7 +104,7 @@
             <div class="header-bottom-wrapper pr-200 pl-200">
                 <div class="logo-3">
                     <a href="{{route('home')}}">
-                        <img src="{{asset('img/logo/logo-3.png')}}" alt="">
+                        <img src="{{asset('img/logo.png')}}" alt="">
                     </a>
                 </div>
                 <div class="categories-search-wrapper categories-search-wrapper2">
