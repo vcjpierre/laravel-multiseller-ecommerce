@@ -23,17 +23,17 @@
                                 <tr>
                                     <td class="product-remove"><a href="{{ route('cart.destroy', $item->id) }}"><i class="pe-7s-close"></i></a></td>
                                     <td class="product-thumbnail">
-                                        <a href="#"><img src="assets/img/cart/1.jpg" alt=""></a>
+                                        <a href="#"><img src="{{asset('img/cart/1.jpg')}}" alt=""></a>
                                     </td>
                                     <td class="product-name"><a href="#">{{ $item->name }} </a></td>
-                                    <td class="product-price-cart"><span class="amount">${{Cart::session(auth()->id())->get($item->id)->getPriceSum()}}</span></td>
+                                    <td class="product-price-cart"><span class="amount">${{ $item->price }}</span></td>
                                     <td class="product-quantity">
                                         <form action="{{route('cart.update', $item->id)}}" method="get">
                                             <input name="quantity" type="number" value="{{ $item->quantity }}">
                                             <input class="button" type="submit" value="save">
                                         </form>
                                     </td>
-                                    <td class="product-subtotal">$165.00</td>
+                                    <td class="product-subtotal">${{Cart::session(auth()->id())->get($item->id)->getPriceSum()}}</td>
                                 </tr>
                             @endforeach
                             </tbody>
@@ -43,9 +43,11 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="coupon-all">
                                 <div class="coupon">
-                                    <input id="coupon_code" class="input-text" name="coupon_code" value=""
-                                        placeholder="Coupon code" type="text">
-                                    <input class="button" name="apply_coupon" value="Apply coupon" type="submit">
+                                    <form action="{{route('cart.coupon')}}" method="get">
+                                        <input id="coupon_code" class="input-text" name="coupon_code" value=""
+                                            placeholder="Coupon code" type="text">
+                                        <input class="button" name="apply_coupon" value="Apply coupon" type="submit">
+                                    </form>
                                 </div>                                
                             </div>
                         </div>
