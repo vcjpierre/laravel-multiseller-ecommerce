@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>
+    @livewireStyles
 </head>
 
 <body>
@@ -572,7 +573,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- all js here -->
     <script src="{{asset('js/vendor/jquery-1.12.0.min.js')}}"></script>
     <script src="{{asset('js/popper.js')}}"></script>
@@ -586,6 +587,7 @@
     <script src="{{asset('js/owl.carousel.min.js')}}"></script>
     <script src="{{asset('js/plugins.js')}}"></script>
     <script src="{{asset('js/main.js')}}"></script>
+    @livewireScripts
 </body>
 
 </html>
