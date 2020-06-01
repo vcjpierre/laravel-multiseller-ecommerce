@@ -1,9 +1,9 @@
 @component('mail::message')
 # Congratulations
 
-Your shop is now active
+Your shop {{ $shopName }} is now active
 
-@component('mail::button', ['url' => route('shops.show', $shop->id)])
+@component('mail::button', ['url' => route('shops.show', 1)])
 Visit Your Shop
 @endcomponent
 

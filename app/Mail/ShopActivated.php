@@ -15,6 +15,10 @@ class ShopActivated extends Mailable
 
     public $shop;
 
+    public $shopId;
+
+    public $shopName;
+
     /**
      * Create a new message instance.
      *
@@ -23,6 +27,8 @@ class ShopActivated extends Mailable
     public function __construct(Shop $shop)
     {
         $this->shop = $shop;
+        $this->shopId = $shop->id;
+        $this->shopName = $shop->name;
     }
 
     /**
