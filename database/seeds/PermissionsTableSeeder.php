@@ -465,6 +465,166 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2020-03-23 06:28:50',
                 'updated_at' => '2020-03-23 06:28:50',
             ),
+            56 => 
+            array (
+                'id' => 57,
+                'key' => 'browse_coupons',
+                'table_name' => 'coupons',
+                'created_at' => '2020-04-04 20:27:24',
+                'updated_at' => '2020-04-04 20:27:24',
+            ),
+            57 => 
+            array (
+                'id' => 58,
+                'key' => 'read_coupons',
+                'table_name' => 'coupons',
+                'created_at' => '2020-04-04 20:27:24',
+                'updated_at' => '2020-04-04 20:27:24',
+            ),
+            58 => 
+            array (
+                'id' => 59,
+                'key' => 'edit_coupons',
+                'table_name' => 'coupons',
+                'created_at' => '2020-04-04 20:27:24',
+                'updated_at' => '2020-04-04 20:27:24',
+            ),
+            59 => 
+            array (
+                'id' => 60,
+                'key' => 'add_coupons',
+                'table_name' => 'coupons',
+                'created_at' => '2020-04-04 20:27:24',
+                'updated_at' => '2020-04-04 20:27:24',
+            ),
+            60 => 
+            array (
+                'id' => 61,
+                'key' => 'delete_coupons',
+                'table_name' => 'coupons',
+                'created_at' => '2020-04-04 20:27:24',
+                'updated_at' => '2020-04-04 20:27:24',
+            ),
+            61 => 
+            array (
+                'id' => 62,
+                'key' => 'browse_sub_order_items',
+                'table_name' => 'sub_order_items',
+                'created_at' => '2020-11-05 22:02:09',
+                'updated_at' => '2020-11-05 22:02:09',
+            ),
+            62 => 
+            array (
+                'id' => 63,
+                'key' => 'read_sub_order_items',
+                'table_name' => 'sub_order_items',
+                'created_at' => '2020-11-05 22:02:09',
+                'updated_at' => '2020-11-05 22:02:09',
+            ),
+            63 => 
+            array (
+                'id' => 64,
+                'key' => 'edit_sub_order_items',
+                'table_name' => 'sub_order_items',
+                'created_at' => '2020-11-05 22:02:09',
+                'updated_at' => '2020-11-05 22:02:09',
+            ),
+            64 => 
+            array (
+                'id' => 65,
+                'key' => 'add_sub_order_items',
+                'table_name' => 'sub_order_items',
+                'created_at' => '2020-11-05 22:02:09',
+                'updated_at' => '2020-11-05 22:02:09',
+            ),
+            65 => 
+            array (
+                'id' => 66,
+                'key' => 'delete_sub_order_items',
+                'table_name' => 'sub_order_items',
+                'created_at' => '2020-11-05 22:02:09',
+                'updated_at' => '2020-11-05 22:02:09',
+            ),
+            66 => 
+            array (
+                'id' => 67,
+                'key' => 'browse_sub_orders',
+                'table_name' => 'sub_orders',
+                'created_at' => '2020-11-05 22:03:54',
+                'updated_at' => '2020-11-05 22:03:54',
+            ),
+            67 => 
+            array (
+                'id' => 68,
+                'key' => 'read_sub_orders',
+                'table_name' => 'sub_orders',
+                'created_at' => '2020-11-05 22:03:54',
+                'updated_at' => '2020-11-05 22:03:54',
+            ),
+            68 => 
+            array (
+                'id' => 69,
+                'key' => 'edit_sub_orders',
+                'table_name' => 'sub_orders',
+                'created_at' => '2020-11-05 22:03:54',
+                'updated_at' => '2020-11-05 22:03:54',
+            ),
+            69 => 
+            array (
+                'id' => 70,
+                'key' => 'add_sub_orders',
+                'table_name' => 'sub_orders',
+                'created_at' => '2020-11-05 22:03:54',
+                'updated_at' => '2020-11-05 22:03:54',
+            ),
+            70 => 
+            array (
+                'id' => 71,
+                'key' => 'delete_sub_orders',
+                'table_name' => 'sub_orders',
+                'created_at' => '2020-11-05 22:03:54',
+                'updated_at' => '2020-11-05 22:03:54',
+            ),
+            71 => 
+            array (
+                'id' => 72,
+                'key' => 'browse_transactions',
+                'table_name' => 'transactions',
+                'created_at' => '2020-11-05 22:29:19',
+                'updated_at' => '2020-11-05 22:29:19',
+            ),
+            72 => 
+            array (
+                'id' => 73,
+                'key' => 'read_transactions',
+                'table_name' => 'transactions',
+                'created_at' => '2020-11-05 22:29:19',
+                'updated_at' => '2020-11-05 22:29:19',
+            ),
+            73 => 
+            array (
+                'id' => 74,
+                'key' => 'edit_transactions',
+                'table_name' => 'transactions',
+                'created_at' => '2020-11-05 22:29:19',
+                'updated_at' => '2020-11-05 22:29:19',
+            ),
+            74 => 
+            array (
+                'id' => 75,
+                'key' => 'add_transactions',
+                'table_name' => 'transactions',
+                'created_at' => '2020-11-05 22:29:19',
+                'updated_at' => '2020-11-05 22:29:19',
+            ),
+            75 => 
+            array (
+                'id' => 76,
+                'key' => 'delete_transactions',
+                'table_name' => 'transactions',
+                'created_at' => '2020-11-05 22:29:19',
+                'updated_at' => '2020-11-05 22:29:19',
+            ),
         ));
         
         
