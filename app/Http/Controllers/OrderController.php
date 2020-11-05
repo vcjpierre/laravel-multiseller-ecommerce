@@ -95,6 +95,8 @@ class OrderController extends Controller
             return redirect()->route('paypal.checkout',$order->id);
         }
 
+        $order->generateSubOrders();
+
         //Empty cart
         \Cart::session(auth()->id())->clear();
 

@@ -70,9 +70,9 @@ class ProductController extends VoyagerBaseController
 
             // Query to display seller's shop only
 
-            if(auth()->user()->hasRole('seller')) {
-                if(empty(auth()->user()->shop)){
-                      abort(404);
+            if (auth()->user()->hasRole('seller')) {
+                if (empty(auth()->user()->shop)){
+                    return back()->withMessage("You need to have shop to access this page");
                 }
                 $query->where('shop_id', auth()->user()->shop->id);
             }
