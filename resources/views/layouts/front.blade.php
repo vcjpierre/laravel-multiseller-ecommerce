@@ -11,14 +11,15 @@
     <link rel="shortcut icon" type="image/x-icon" href="">
 
     <!-- all css here -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{asset('css/magnific-popup.css') }}">
-    <link rel="stylesheet" href="{{asset('css/animate.css') }}">
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{asset('css/themify-icons.css') }}">
-    <link rel="stylesheet" href="{{asset('css/pe-icon-7-stroke.css') }}">
-    <link rel="stylesheet" href="{{asset('css/icofont.css') }}">
-    <link rel="stylesheet" href="{{asset('css/meanmenu.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/pe-icon-7-stroke.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/icofont.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/meanmenu.min.css') }}">
+    <link rel="stylesheet" href="{{ assets('css/jquery-ui.css')}}">
     <link rel="stylesheet" href="{{ asset('css/bundle.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
