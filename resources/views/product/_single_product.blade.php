@@ -27,6 +27,7 @@
             <h4><a href="product-details.html">{{$product->name}}</a></h4>
             <span>{{$product->description}}</span>
             <h5>$ {{$product->price}}</h5>
+            <p>{{$product->shop->owner->name ?? 'n/a'}}</p>
         </div>
     </div>
 </div>

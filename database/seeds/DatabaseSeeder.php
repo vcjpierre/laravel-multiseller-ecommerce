@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Database\Seeders\DummyDataSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -25,7 +26,6 @@ class DatabaseSeeder extends Seeder
         $this->call(SettingsTableSeeder::class);
         $this->call(UsersTableSeeder::class);
         $this->call(UserRolesTableSeeder::class);
-        $this->call(ProductSeeder::class);
-        $this->call(ShopSeeder::class);        
+        $this->call(DummyDataSeeder::class); 
     }
 }
