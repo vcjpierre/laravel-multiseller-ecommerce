@@ -21,6 +21,25 @@
             <div class="col-md-12 col-12 col-lg-6 col-xl-6 ml-auto mr-auto">
                 <div class="login">
                     <div class="login-form-container">
+
+                        @error('email')
+                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                <strong>{{ $message }}</strong>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        @enderror
+
+                        @error('password')
+                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                <strong>{{ $message }}</strong>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        @enderror
+
                         <div class="login-form">
                             <form method="POST" action="{{ route('login') }}">
                                  @csrf
@@ -33,13 +52,7 @@
                                 required 
                                 autocomplete="email"
                                 placeholder="Email"
-                                autofocus>
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                autofocus>                                
 
                                 <input id="password" 
                                 type="password" 
@@ -48,13 +61,7 @@
                                 name="password" 
                                 required 
                                 placeholder="Password"
-                                autocomplete="current-password">
-                                
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                autocomplete="current-password">                                                                
 
                                 <div class="button-box">
                                     <div class="login-toggle-btn">
