@@ -52,29 +52,29 @@
                 <ul>
                     <li><a href="#">home <i class="pe-7s-angle-down"></i> <span class="sticker-new">hot</span></a>
                         <ul class="single-dropdown">
-                            <li><a href="index.html">Fashion</a></li>
-                            <li><a href="index-fashion-2.html">Fashion style 2</a></li>
-                            <li><a href="index-fruits.html">fruits</a></li>
-                            <li><a href="index-book.html">book</a></li>
-                            <li><a href="index-electronics.html">electronics</a></li>
-                            <li><a href="index-electronics-2.html">electronics style 2</a></li>
-                            <li><a href="index-food.html">food & drink</a></li>
-                            <li><a href="index-furniture.html">furniture</a></li>
-                            <li><a href="index-handicraft.html">handicraft</a></li>
-                            <li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
-                            <li><a href="index-sports.html">sports</a></li>
+                            <li><a href="">Fashion</a></li>
+                            <li><a href="">Fashion style 2</a></li>
+                            <li><a href="">fruits</a></li>
+                            <li><a href="">book</a></li>
+                            <li><a href="">electronics</a></li>
+                            <li><a href="">electronics style 2</a></li>
+                            <li><a href="">food & drink</a></li>
+                            <li><a href="">furniture</a></li>
+                            <li><a href="">handicraft</a></li>
+                            <li><a target="_blank" href="">smart watch</a></li>
+                            <li><a href="">sports</a></li>
                         </ul>
                     </li>
                     <li><a href="#">page </a>
                         <ul class="single-dropdown">
-                            <li><a href="about-us.html">about us</a></li>
-                            <li><a href="menu-list.html">menu list</a></li>
-                            <li><a href="login.html">login</a></li>
-                            <li><a href="register.html">register</a></li>
-                            <li><a href="cart.html">cart page</a></li>
-                            <li><a href="checkout.html">checkout</a></li>
-                            <li><a href="wishlist.html">wishlist</a></li>
-                            <li><a href="contact.html">contact</a></li>
+                            <li><a href="">about us</a></li>
+                            <li><a href="">menu list</a></li>
+                            <li><a href="">login</a></li>
+                            <li><a href="">register</a></li>
+                            <li><a href="">cart page</a></li>
+                            <li><a href="">checkout</a></li>
+                            <li><a href="">wishlist</a></li>
+                            <li><a href="">contact</a></li>
                         </ul>
                     </li>
                     <li><a href="#">shop <i class="pe-7s-angle-down"></i> <span class="sticker-new">hot</span></a>
@@ -82,33 +82,33 @@
                             <div class="category-dropdown-style category-common2 mb-30">
                                 <h4 class="categories-subtitle"> shop layout</h4>
                                 <ul>
-                                    <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
-                                    <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
-                                    <li><a href="shop.html">grid 4 column</a></li>
-                                    <li><a href="shop-grid-box.html">grid box style</a></li>
-                                    <li><a href="shop-list-1-col.html"> list 1 column</a></li>
-                                    <li><a href="shop-list-2-col.html">list 2 column</a></li>
-                                    <li><a href="shop-list-box.html">list box style</a></li>
-                                    <li><a href="cart.html">shopping cart</a></li>
-                                    <li><a href="wishlist.html">wishlist</a></li>
+                                    <li><a href=""> grid 2 column</a></li>
+                                    <li><a href=""> grid 3 column</a></li>
+                                    <li><a href="">grid 4 column</a></li>
+                                    <li><a href="">grid box style</a></li>
+                                    <li><a href=""> list 1 column</a></li>
+                                    <li><a href="">list 2 column</a></li>
+                                    <li><a href="">list box style</a></li>
+                                    <li><a href="">shopping cart</a></li>
+                                    <li><a href="">wishlist</a></li>
                                 </ul>
                             </div>
                             <div class="category-dropdown-style category-common2 mb-30">
                                 <h4 class="categories-subtitle"> product details</h4>
                                 <ul>
-                                    <li><a href="product-details.html">tab style 1</a></li>
-                                    <li><a href="product-details-2.html">tab style 2</a></li>
-                                    <li><a href="product-details-3.html"> tab style 3</a></li>
-                                    <li><a href="product-details-4.html">sticky style</a></li>
-                                    <li><a href="product-details-5.html">sticky style 2</a></li>
-                                    <li><a href="product-details-6.html">gallery style</a></li>
-                                    <li><a href="product-details-7.html">gallery style 2</a></li>
-                                    <li><a href="product-details-8.html">fixed image style</a></li>
-                                    <li><a href="product-details-9.html">fixed image style 2</a></li>
+                                    <li><a href="">tab style 1</a></li>
+                                    <li><a href="">tab style 2</a></li>
+                                    <li><a href=""> tab style 3</a></li>
+                                    <li><a href="">sticky style</a></li>
+                                    <li><a href="">sticky style 2</a></li>
+                                    <li><a href="">gallery style</a></li>
+                                    <li><a href="">gallery style 2</a></li>
+                                    <li><a href="">fixed image style</a></li>
+                                    <li><a href="">fixed image style 2</a></li>
                                 </ul>
                             </div>
                             <div class="mega-banner-img">
-                                <a href="single-product.html">
+                                <a href=""ingle-product>
                                     <img src="{{asset('img/banner/18.jpg')}}" alt="">
                                 </a>
                             </div>
@@ -116,11 +116,11 @@
                     </li>
                     <li><a href="#">blog <i class="pe-7s-angle-down"></i> <span class="sticker-new">hot</span></a>
                         <ul class="single-dropdown">
-                            <li><a href="blog.html">blog 3 colunm</a></li>
-                            <li><a href="blog-2-col.html">blog 2 colunm</a></li>
-                            <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                            <li><a href="blog-details.html">blog details</a></li>
-                            <li><a href="blog-details-sidebar.html">blog details 2</a></li>
+                            <li><a href="">blog 3 colunm</a></li>
+                            <li><a href="">blog 2 colunm</a></li>
+                            <li><a href="">blog sidebar</a></li>
+                            <li><a href="">blog details</a></li>
+                            <li><a href="">blog details 2</a></li>
                         </ul>
                     </li>
                     <li><a href="#">contact</a></li>
@@ -137,7 +137,7 @@
                 <div class="slider-content-4 fadeinup-animated">
                     <h2 class="animated">Say hello! to the <br>future.</h2>
                     <h4 class="animated">Best Product With warranty  </h4>
-                    <a class="electro-slider-btn btn-hover animated" href="product-details.html">buy now</a>
+                    <a class="electro-slider-btn btn-hover animated" href=""product-details>buy now</a>
                 </div>
             </div>
         </div>
@@ -146,7 +146,7 @@
                 <div class="slider-content-4 fadeinup-animated">
                     <h2 class="animated">Say hello! to the <br>future.</h2>
                     <h4 class="animated">Best Product With warranty  </h4>
-                    <a class="electro-slider-btn btn-hover animated" href="product-details.html">buy now</a>
+                    <a class="electro-slider-btn btn-hover animated" href="">buy now</a>
                 </div>
             </div>
         </div>

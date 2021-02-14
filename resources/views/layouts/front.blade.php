@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
 
     <!-- all css here -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -77,6 +77,11 @@
                                     Seller panel                                        
                                 </a>
                             </li>
+                            <li> 
+                                <a href="{{ url('seller') }}">                                    
+                                    My orders                                       
+                                </a>
+                            </li>                             
                             @endif
 
                             <li>
@@ -150,61 +155,61 @@
                             <ul class="menu-overflow">
                                 <li><a href="#">HOME</a>
                                     <ul>
-                                        <li><a href="index.html">Fashion</a></li>
-                                        <li><a href="index-fashion-2.html">Fashion style 2</a></li>
-                                        <li><a href="index-fruits.html">Fruits</a></li>
-                                        <li><a href="index-book.html">book</a></li>
-                                        <li><a href="index-electronics.html">electronics</a></li>
-                                        <li><a href="index-electronics-2.html">electronics style 2</a></li>
-                                        <li><a href="index-food.html">food & drink</a></li>
-                                        <li><a href="index-furniture.html">furniture</a></li>
-                                        <li><a href="index-handicraft.html">handicraft</a></li>
-                                        <li><a href="index-smart-watch.html">smart watch</a></li>
-                                        <li><a href="index-sports.html">sports</a></li>
+                                        <li><a href="">Fashion</a></li>
+                                        <li><a href="">Fashion style 2</a></li>
+                                        <li><a href="">Fruits</a></li>
+                                        <li><a href="">book</a></li>
+                                        <li><a href="">electronics</a></li>
+                                        <li><a href="">electronics style 2</a></li>
+                                        <li><a href="">food & drink</a></li>
+                                        <li><a href="">furniture</a></li>
+                                        <li><a href="">handicraft</a></li>
+                                        <li><a href="">smart watch</a></li>
+                                        <li><a href="">sports</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">pages</a>
                                     <ul>
-                                        <li><a href="about-us.html">about us</a></li>
-                                        <li><a href="menu-list.html">menu list</a></li>
-                                        <li><a href="login.html">login</a></li>
-                                        <li><a href="register.html">register</a></li>
-                                        <li><a href="cart.html">cart page</a></li>
-                                        <li><a href="checkout.html">checkout</a></li>
-                                        <li><a href="wishlist.html">wishlist</a></li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="">about us</a></li>
+                                        <li><a href="">menu list</a></li>
+                                        <li><a href="">login</a></li>
+                                        <li><a href="">register</a></li>
+                                        <li><a href="">cart page</a></li>
+                                        <li><a href="">checkout</a></li>
+                                        <li><a href="">wishlist</a></li>
+                                        <li><a href="">contact</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">shop</a>
                                     <ul>
-                                        <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
-                                        <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
-                                        <li><a href="shop.html">grid 4 column</a></li>
-                                        <li><a href="shop-grid-box.html">grid box style</a></li>
-                                        <li><a href="shop-list-1-col.html"> list 1 column</a></li>
-                                        <li><a href="shop-list-2-col.html">list 2 column</a></li>
-                                        <li><a href="shop-list-box.html">list box style</a></li>
-                                        <li><a href="product-details.html">tab style 1</a></li>
-                                        <li><a href="product-details-2.html">tab style 2</a></li>
-                                        <li><a href="product-details-3.html"> tab style 3</a></li>
-                                        <li><a href="product-details-4.html">sticky style</a></li>
-                                        <li><a href="product-details-5.html">sticky style 2</a></li>
-                                        <li><a href="product-details-6.html">gallery style</a></li>
-                                        <li><a href="product-details-7.html">gallery style 2</a></li>
-                                        <li><a href="product-details-8.html">fixed image style</a></li>
-                                        <li><a href="product-details-9.html">fixed image style 2</a></li>
+                                        <li><a href=""> grid 2 column</a></li>
+                                        <li><a href=""> grid 3 column</a></li>
+                                        <li><a href="">grid 4 column</a></li>
+                                        <li><a href="">grid box style</a></li>
+                                        <li><a href=""> list 1 column</a></li>
+                                        <li><a href="">list 2 column</a></li>
+                                        <li><a href="">list box style</a></li>
+                                        <li><a href="">tab style 1</a></li>
+                                        <li><a href="">tab style 2</a></li>
+                                        <li><a href=""> tab style 3</a></li>
+                                        <li><a href="">sticky style</a></li>
+                                        <li><a href="">sticky style 2</a></li>
+                                        <li><a href="">gallery style</a></li>
+                                        <li><a href="">gallery style 2</a></li>
+                                        <li><a href="">fixed image style</a></li>
+                                        <li><a href="">fixed tyle 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">BLOG</a>
+                                <li><a href="">BLOG</a>
                                     <ul>
-                                        <li><a href="blog.html">blog 3 colunm</a></li>
-                                        <li><a href="blog-2-col.html">blog 2 colunm</a></li>
-                                        <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                        <li><a href="blog-details.html">blog details</a></li>
-                                        <li><a href="blog-details-sidebar.html">blog details 2</a></li>
+                                        <li><a href="">blog 3 colunm</a></li>
+                                        <li><a href="">blog 2 colunm</a></li>
+                                        <li><a href="">blog sidebar</a></li>
+                                        <li><a href="">blog details</a></li>
+                                        <li><a href="">blog details 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html"> Contact  </a></li>
+                                <li><a href=""> Contact  </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -273,11 +278,11 @@
                             <h3 class="footer-widget-title-3">My Account</h3>
                             <div class="footer-widget-content-3">
                                 <ul>
-                                    <li><a href="login.html">Login Hare</a></li>
-                                    <li><a href="cart.html">Cart History</a></li>
-                                    <li><a href="checkout.html"> Payment History</a></li>
-                                    <li><a href="shop.html">Product Tracking</a></li>
-                                    <li><a href="register.html">Register</a></li>
+                                    <li><a href="">Login Hare</a></li>
+                                    <li><a href="">Cart History</a></li>
+                                    <li><a href=""> Payment History</a></li>
+                                    <li><a href="">Product Tracking</a></li>
+                                    <li><a href="">Register</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -287,7 +292,7 @@
                             <h3 class="footer-widget-title-3">Information</h3>
                             <div class="footer-widget-content-3">
                                 <ul>
-                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href=""about-us>About Us</a></li>
                                     <li><a href="#">Our Service</a></li>
                                     <li><a href="#">Pricing Plan</a></li>
                                     <li><a href="#"> Vendor Detail</a></li>
@@ -360,7 +365,7 @@
                             <nav>
                                 <ul>
                                     <li><a href="#">Privacy Policy </a></li>
-                                    <li><a href="blog.html"> Blog</a></li>
+                                    <li><a href="#"> Blog</a></li>
                                     <li><a href="#">Help Center</a></li>
                                 </ul>
                             </nav>

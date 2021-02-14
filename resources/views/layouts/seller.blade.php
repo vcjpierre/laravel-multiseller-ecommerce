@@ -69,6 +69,9 @@
               </li>
               @endif
               @else
+              <li class="nav-item">
+                <a class="nav-link" href="{{url('/')}}">Go to shop</a>
+              </li>
               <li class="nav-item dropdown">
                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -113,8 +116,8 @@
 
           <div class="list-group">
             <a href="/seller" class="list-group-item list-group-item-action active">Dashboard</a>
-            <a href=" {{route('seller.orders.index')}} " class="list-group-item list-group-item-action">Orders</a>
-            <a href=" {{url('/admin/shops')}} " class="list-group-item list-group-item-action">Go to Shop</a>
+            <a href="{{route('seller.orders.index')}} " class="list-group-item list-group-item-action">Orders</a>
+            <a href="{{url('/admin/shops')}}" class="list-group-item list-group-item-action">Go back</a>
           </div>
 
         </div>
