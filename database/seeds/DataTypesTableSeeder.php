@@ -177,7 +177,7 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2020-03-23 06:28:50',
-                'updated_at' => '2020-03-24 00:11:41',
+                'updated_at' => '2021-02-14 16:34:44',
             ),
             9 => 
             array (
@@ -232,6 +232,42 @@ class DataTypesTableSeeder extends Seeder
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
                 'created_at' => '2020-11-05 22:29:19',
                 'updated_at' => '2020-11-05 22:29:19',
+            ),
+            12 => 
+            array (
+                'id' => 14,
+                'name' => 'attributes',
+                'slug' => 'attributes',
+                'display_name_singular' => 'Attribute',
+                'display_name_plural' => 'Attributes',
+                'icon' => NULL,
+                'model_name' => 'App\\Attribute',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2021-02-14 16:21:03',
+                'updated_at' => '2021-02-14 16:40:42',
+            ),
+            13 => 
+            array (
+                'id' => 15,
+                'name' => 'attribute_values',
+                'slug' => 'attribute-values',
+                'display_name_singular' => 'Attribute Value',
+                'display_name_plural' => 'Attribute Values',
+                'icon' => 'voyager-list',
+                'model_name' => 'App\\AttributeValue',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2021-02-14 16:21:57',
+                'updated_at' => '2021-02-14 16:39:58',
             ),
         ));
         

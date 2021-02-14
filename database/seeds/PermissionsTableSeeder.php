@@ -625,6 +625,86 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2020-11-05 22:29:19',
                 'updated_at' => '2020-11-05 22:29:19',
             ),
+            76 => 
+            array (
+                'id' => 77,
+                'key' => 'browse_attributes',
+                'table_name' => 'attributes',
+                'created_at' => '2021-02-14 16:21:04',
+                'updated_at' => '2021-02-14 16:21:04',
+            ),
+            77 => 
+            array (
+                'id' => 78,
+                'key' => 'read_attributes',
+                'table_name' => 'attributes',
+                'created_at' => '2021-02-14 16:21:04',
+                'updated_at' => '2021-02-14 16:21:04',
+            ),
+            78 => 
+            array (
+                'id' => 79,
+                'key' => 'edit_attributes',
+                'table_name' => 'attributes',
+                'created_at' => '2021-02-14 16:21:04',
+                'updated_at' => '2021-02-14 16:21:04',
+            ),
+            79 => 
+            array (
+                'id' => 80,
+                'key' => 'add_attributes',
+                'table_name' => 'attributes',
+                'created_at' => '2021-02-14 16:21:04',
+                'updated_at' => '2021-02-14 16:21:04',
+            ),
+            80 => 
+            array (
+                'id' => 81,
+                'key' => 'delete_attributes',
+                'table_name' => 'attributes',
+                'created_at' => '2021-02-14 16:21:04',
+                'updated_at' => '2021-02-14 16:21:04',
+            ),
+            81 => 
+            array (
+                'id' => 82,
+                'key' => 'browse_attribute_values',
+                'table_name' => 'attribute_values',
+                'created_at' => '2021-02-14 16:21:57',
+                'updated_at' => '2021-02-14 16:21:57',
+            ),
+            82 => 
+            array (
+                'id' => 83,
+                'key' => 'read_attribute_values',
+                'table_name' => 'attribute_values',
+                'created_at' => '2021-02-14 16:21:57',
+                'updated_at' => '2021-02-14 16:21:57',
+            ),
+            83 => 
+            array (
+                'id' => 84,
+                'key' => 'edit_attribute_values',
+                'table_name' => 'attribute_values',
+                'created_at' => '2021-02-14 16:21:57',
+                'updated_at' => '2021-02-14 16:21:57',
+            ),
+            84 => 
+            array (
+                'id' => 85,
+                'key' => 'add_attribute_values',
+                'table_name' => 'attribute_values',
+                'created_at' => '2021-02-14 16:21:57',
+                'updated_at' => '2021-02-14 16:21:57',
+            ),
+            85 => 
+            array (
+                'id' => 86,
+                'key' => 'delete_attribute_values',
+                'table_name' => 'attribute_values',
+                'created_at' => '2021-02-14 16:21:57',
+                'updated_at' => '2021-02-14 16:21:57',
+            ),
         ));
         
         
