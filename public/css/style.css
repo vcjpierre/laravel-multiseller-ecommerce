@@ -2241,7 +2241,7 @@ a.banner-book-style-btn:hover {
     padding: 0 0 0px 12px;
     text-transform: capitalize;
     width: 169px;
-    background: rgba(0, 0, 0, 0) url("../../assets/img/icon-img/4.png") no-repeat scroll right 40px center;
+    background: rgba(0, 0, 0, 0) url("../../assets/../img/icon-img/4.png") no-repeat scroll right 40px center;
 }
 
 .select-wrapper select option {
@@ -7357,7 +7357,7 @@ h5.panel-title {
 .shop-selector select {
     -moz-appearance: none;
     -webkit-appearance: none;
-    background: rgba(0, 0, 0, 0) url("../../assets/img/icon-img/4.png") no-repeat scroll right 0 center;
+    background: rgba(0, 0, 0, 0) url("../../assets/../img/icon-img/4.png") no-repeat scroll right 0 center;
     border: medium none;
     box-shadow: none;
     color: #090909;
@@ -7537,7 +7537,7 @@ h5.panel-title {
 }
 .select-option-part select {
     -moz-appearance: none;
-    background: rgba(0, 0, 0, 0) url("../../assets/img/icon-img/4.png") no-repeat scroll right 20px center;
+    background: rgba(0, 0, 0, 0) url("../../assets/../img/icon-img/4.png") no-repeat scroll right 20px center;
     border: 1px solid #dcdcdc;
     box-shadow: none;
     color: #828282;
@@ -9491,7 +9491,7 @@ a.bundle-btn {
     padding-left: 20px;
     position: relative;
     width: 100%;
-    background: rgba(0, 0, 0, 0) url("../../assets/img/icon-img/4.png") no-repeat scroll right 20px center;
+    background: rgba(0, 0, 0, 0) url("../../assets/../img/icon-img/4.png") no-repeat scroll right 20px center;
     text-transform: capitalize;
 }
 .qtybutton {
