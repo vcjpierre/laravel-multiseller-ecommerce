@@ -89,15 +89,14 @@ class OrderController extends Controller
             $order->items()->attach($item->id, ['price'=> $item->price, 'quantity'=> $item->quantity]);
         }
 
-        //Payment
-        if (request('payment_method') == 'paypal') {
-            //Redirect to paypal
-            return redirect()->route('paypal.checkout',$order->id);
-        }
-
         $order->generateSubOrders();
 
-        //Empty cart
+        if (request('payment_method') == 'paypal') {
+
+            return redirect()->route('paypal.checkout', $order->id);
+
+        }
+
         \Cart::session(auth()->id())->clear();
 
         return redirect()->route('home')->withMessage('Order has been placed');
