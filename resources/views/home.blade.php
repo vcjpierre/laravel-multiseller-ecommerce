@@ -108,7 +108,7 @@
                                 </ul>
                             </div>
                             <div class="mega-banner-img">
-                                <a href=""ingle-product>
+                                <a>
                                     <img src="{{asset('img/banner/18.jpg')}}" alt="">
                                 </a>
                             </div>
@@ -137,7 +137,7 @@
                 <div class="slider-content-4 fadeinup-animated">
                     <h2 class="animated">Say hello! to the <br>future.</h2>
                     <h4 class="animated">Best Product With warranty  </h4>
-                    <a class="electro-slider-btn btn-hover animated" href=""product-details>buy now</a>
+                    <a class="electro-slider-btn btn-hover animated">buy now</a>
                 </div>
             </div>
         </div>
