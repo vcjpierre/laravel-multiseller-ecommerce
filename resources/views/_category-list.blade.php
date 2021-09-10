@@ -2,8 +2,8 @@
     <ul>
         @foreach($categories as $category)
             <li>
-                <a href="{{route('products.index', ['category_id' => $category->id])}}">{{$category->name}}<i
-                        class="pe-7s-angle-right"></i>
+                <a href="{{route('products.index', ['category_id' => $category->id])}}">{{$category->name}}
+                    <i class="pe-7s-angle-right"></i>
                 </a>
 
                 @php
@@ -23,7 +23,7 @@
                                 @php
                                     $grandChild = $child->children;
                                 @endphp
-                                @if($grandChild->isNotEmpty())
+                                @if($grandChild && $grandChild->isNotEmpty())
                                     <ul>
                                         @foreach ($grandChild as $c)
                                             <li><a href="{{route('products.index', ['category_id' => $c->id])}}">{{$c->name}}</a></li>
